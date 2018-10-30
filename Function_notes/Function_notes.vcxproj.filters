@@ -24,6 +24,9 @@
     <ClInclude Include="Common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="BarcodeStatisticsRecorder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +48,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ListFiles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaceAllDistinct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintCompareCSVcpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
