@@ -154,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CreateOutputFileDir.cpp" />
+    <ClCompile Include="FindLicense.cpp" />
     <ClCompile Include="Function_notes.cpp" />
     <ClCompile Include="GetAllCsvFileFromPath.cpp" />
     <ClCompile Include="GetCurrentTimeString.cpp" />

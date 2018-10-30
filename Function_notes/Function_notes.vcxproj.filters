@@ -56,5 +56,8 @@
     <ClCompile Include="PrintCompareCSVcpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FindLicense.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

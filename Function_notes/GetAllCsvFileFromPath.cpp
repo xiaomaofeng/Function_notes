@@ -24,6 +24,8 @@ void GetAllCsvFileFromPath(const string& srcPath, vector<string>& srcCSVs, strin
 	WIN32_FIND_DATA ff;
 	//printf("%s", szSearchPath);
 	HANDLE curFile = FindFirstFile(szSearchPath, &ff);
+	string tempFilePath;
+	vector<string>tempString;
 	if (curFile != INVALID_HANDLE_VALUE)
 	{
 		do
@@ -75,7 +77,41 @@ void GetAllCsvFileFromPath(const string& srcPath, vector<string>& srcCSVs, strin
 					if (tempPos == (Version + "_.csv"))//image or not
 					{
 						wsprintf(szFilePath, "%s%s", srcPath.c_str(), ff.cFileName);
-						srcCSVs.push_back(szFilePath);//add to vector
+						bool firstInput = srcCSVs.size() == 0;
+						if (firstInput)
+						{
+							srcCSVs.push_back(szFilePath);
+							continue;
+						}
+						bool bifSameFlag = false;
+						for (int k = 0; k < srcCSVs.size(); k++)
+						{
+							size_t tempPos;
+							tempFilePath = srcCSVs[k];
+							tempPos = tempFilePath.find_last_of('\\') + 1;
+							string tempFileName = tempFilePath.substr(tempPos);
+							tempString.push_back(tempFileName);
+							
+						}
+						if (!firstInput)
+						{
+							for (int j = 0; j < srcCSVs.size(); j++)
+							{
+								if (ff.cFileName == tempString[j])
+								{
+									bifSameFlag = true;
+									break;
+								}
+							}
+							if (!bifSameFlag)
+							{
+								srcCSVs.push_back(szFilePath);
+							}
+							else
+							{
+								continue;
+							}
+						}
 					}
 				}
 			}
@@ -86,3 +122,52 @@ void GetAllCsvFileFromPath(const string& srcPath, vector<string>& srcCSVs, strin
 	return;
 
 }
+
+void ExtractFileName(vector<string>&srcCSVs, vector<string>&tempAtlasName)
+{
+	string atlasName;
+	string filePath;
+	string fileName;
+	size_t tempPos;
+	size_t pointPos;
+	for (int i = 0; i < srcCSVs.size(); i++)
+	{
+		filePath = srcCSVs[i];
+		tempPos = filePath.find_last_of('\\') + 1;
+		fileName = filePath.substr(tempPos);
+		pointPos = fileName.find_first_of('.csv') - 3;
+		atlasName = fileName.substr(0, pointPos);
+		tempAtlasName.push_back(atlasName);
+	}
+}
+void SynchronizeFilesCount(vector<string>&srcCSVs, vector<string>&tempSrcCSVs)
+{
+	vector<string>tempAtlasName;
+	vector<string>AtlasName;
+	vector<string>srcCSVsCopy;
+	srcCSVsCopy = srcCSVs;
+	ExtractFileName(srcCSVs, tempAtlasName);
+	ExtractFileName(tempSrcCSVs, AtlasName);
+	for (int j = 0; j < srcCSVs.size(); j++)
+	{
+		for (int k = 0; k < AtlasName.size(); k++)
+		{
+			bool sameFileNameFlag = false;
+			if (tempAtlasName[j] == AtlasName[k])
+			{
+				sameFileNameFlag = true;
+				srcCSVsCopy.push_back(tempSrcCSVs[k]);
+				break;
+			}
+			if (!sameFileNameFlag)
+			{
+				continue;
+			}
+		}
+	}
+	srcCSVs = srcCSVsCopy;
+
+}
+
+
+

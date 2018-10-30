@@ -4,6 +4,7 @@
 #include<vector>
 #include<sstream>
 #include<iostream>
+#include<fstream>
 //---------------
 #include"Common.h"
 using namespace std;
