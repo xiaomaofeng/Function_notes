@@ -1,4 +1,3 @@
 ﻿  Function_notes.cpp
-  GetSuffix.cpp
-  正在生成代码...
-  Function_notes.vcxproj -> C:\Users\Joe\Desktop\函数笔记\Function_notes\Debug\Function_notes.exe
+c:\users\joe\desktop\code-note\function_notes\function_notes\function_notes.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+  Function_notes.vcxproj -> C:\Users\Joe\Desktop\code-note\Function_notes\Debug\Function_notes.exe

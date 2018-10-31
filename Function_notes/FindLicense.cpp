@@ -20,7 +20,6 @@ void FindLicense(string dir, const string LicenseMatchKey)
 	string FileBuf = StringStream.str();
 	string MatchString = LicenseMatchKey;
 	size_t pos = string::npos;
-	size_t pos = string::npos;
 	size_t sNowPos = 0;
 
 	bool ChangeFlag = false;//文件是否需要修改标志位

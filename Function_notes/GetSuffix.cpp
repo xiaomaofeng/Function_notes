@@ -1,11 +1,11 @@
-#include<string>
+﻿#include<string>
 using namespace std;
 
 
 
 string GetSuffix(string Name)
 {
-	size_t Pos = Name.rfind(".", Name.size());
+	size_t Pos = Name.rfind(".", Name.size()); //从后面开始寻找：rfind
 
 	if (Pos == string::npos)
 	{

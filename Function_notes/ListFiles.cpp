@@ -5,8 +5,9 @@
 #include<tchar.h>
 #include<windows.h>
 #include<iostream>
-//--------------------
 #include"Common.h"
+
+//--------------------
 
 using namespace std;
 
@@ -18,7 +19,7 @@ void ListFiles(const string dir, vector<string>&Address, vector<string>sType)
 	//auto Suffix;
 	for (auto Suffix : sType)
 	{
-		transform(Suffix.begin(), Suffix.end(), Suffix.begin, ::tolower);
+		transform(Suffix.begin(), Suffix.end(), Suffix.begin(), ::tolower);
 	}
 	string DirNew;
 	DirNew = dir + "\\*.*";
@@ -36,7 +37,7 @@ void ListFiles(const string dir, vector<string>&Address, vector<string>sType)
 		return;
 	do
 	{
-		if (findData.attrib&_A_SUBDIR)  //subdirectory
+		if (findData.attrib & _A_SUBDIR)  //subdirectory
 		{
 			if (strcmp(findData.name, ".") == 0 || strcmp(findData.name, "..") == 0) //directory
 				continue;
@@ -57,6 +58,8 @@ void ListFiles(const string dir, vector<string>&Address, vector<string>sType)
 	} while (_findnext(handle, &findData) ==0);
 	_findclose(handle); //关闭搜索句柄
 }
+
+
 
 void WinListFile(const string Dir, vector<string>Address, vector<string>stype)
 {
