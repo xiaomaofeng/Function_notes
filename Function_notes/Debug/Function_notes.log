@@ -1,3 +1,30 @@
-﻿  Function_notes.cpp
-c:\users\joe\desktop\code-note\function_notes\function_notes\function_notes.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
-  Function_notes.vcxproj -> C:\Users\Joe\Desktop\code-note\Function_notes\Debug\Function_notes.exe
+﻿  stdafx.cpp
+  CreateOutputFileDir.cpp
+  FindLicense.cpp
+  Function_notes.cpp
+c:\users\小毛峰\documents\github\function_notes\function_notes\function_notes.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
+  GetAllCsvFileFromPath.cpp
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(73): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(87): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(98): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(133): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(138): warning C4305: “参数”: 从“int”到“const _Elem”截断
+          with
+          [
+              _Elem=char
+          ]
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(138): warning C4309: “参数”: 截断常量值
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(151): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(153): warning C4018: “<”: 有符号/无符号不匹配
+  GetCurrentTimeString.cpp
+  GetSuffix.cpp
+  ListFiles.cpp
+  PrintCompareCSVcpp.cpp
+c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(51): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(151): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(153): warning C4018: “<”: 有符号/无符号不匹配
+  ReplaceAllDistinct.cpp
+  正在生成代码...
+  Function_notes.vcxproj -> C:\Users\小毛峰\Documents\GitHub\Function_notes\Debug\Function_notes.exe

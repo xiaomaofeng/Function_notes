@@ -66,7 +66,7 @@ void WinListFile(const string Dir, vector<string>Address, vector<string>stype)
 	HANDLE handle;
 	WIN32_FIND_DATA findData;
 	string dirNew;
-	handle = FindFirstFile(dirNew.c_str(), &findData);
+	handle = FindFirstFile(Dir.c_str(), &findData);
 
 	for (string Suffix : stype)
 	{
