@@ -66,7 +66,8 @@ void WinListFile(const string Dir, vector<string>Address, vector<string>stype)
 	HANDLE handle;
 	WIN32_FIND_DATA findData;
 	string dirNew;
-	handle = FindFirstFile(Dir.c_str(), &findData);
+	dirNew = Dir + "\\*.*";
+	handle = FindFirstFile(dirNew.c_str(), &findData);
 
 	for (string Suffix : stype)
 	{
@@ -83,7 +84,7 @@ void WinListFile(const string Dir, vector<string>Address, vector<string>stype)
 	}
 	*/
 
-	dirNew = Dir + "\\*.*";
+	
 
 	if (handle == INVALID_HANDLE_VALUE)
 		return;
@@ -95,7 +96,7 @@ void WinListFile(const string Dir, vector<string>Address, vector<string>stype)
 			if (strcmp(findData.cFileName, ".") == 0 || strcmp(findData.cFileName, "..") == 0)
 				continue;
 			dirNew = Dir + "\\" + findData.cFileName;
-			WinListFile(Dir, Address, stype);
+			WinListFile(dirNew, Address, stype);
 		}
 		else
 		{
