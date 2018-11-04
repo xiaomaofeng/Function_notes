@@ -1,0 +1,23 @@
+﻿  stdafx.cpp
+  CreateOutputFileDir.cpp
+c:\users\小毛峰\documents\github\function_notes\function_notes\createoutputfiledir.cpp(12): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  FindLicense.cpp
+c:\users\小毛峰\documents\github\function_notes\function_notes\findlicense.cpp(39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Function_notes.cpp
+  GetAllCsvFileFromPath.cpp
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(138): warning C4305: “参数”: 从“int”到“const _Elem”截断
+          with
+          [
+              _Elem=char
+          ]
+c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(138): warning C4309: “参数”: 截断常量值
+  GetCurrentTimeString.cpp
+  GetSuffix.cpp
+  ListFiles.cpp
+  PrintCompareCSVcpp.cpp
+c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(90): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ReplaceAllDistinct.cpp
+  正在生成代码...
+  Function_notes.vcxproj -> C:\Users\小毛峰\Documents\GitHub\Function_notes\x64\Debug\Function_notes.exe
