@@ -1,23 +1,29 @@
 ﻿  stdafx.cpp
   CreateOutputFileDir.cpp
-c:\users\小毛峰\documents\github\function_notes\function_notes\createoutputfiledir.cpp(12): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\createoutputfiledir.cpp(12): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   FindLicense.cpp
-c:\users\小毛峰\documents\github\function_notes\function_notes\findlicense.cpp(39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\findlicense.cpp(39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   Function_notes.cpp
   GetAllCsvFileFromPath.cpp
-c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(138): warning C4305: “参数”: 从“int”到“const _Elem”截断
-          with
-          [
-              _Elem=char
-          ]
-c:\users\小毛峰\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(138): warning C4309: “参数”: 截断常量值
+c:\users\joe\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(138): warning C4305: “参数”: 从“int”到“const char”截断
+c:\users\joe\documents\github\function_notes\function_notes\getallcsvfilefrompath.cpp(138): warning C4309: “参数”: 截断常量值
   GetCurrentTimeString.cpp
   GetSuffix.cpp
+  IfstreamJson.cpp
+c:\users\joe\documents\github\function_notes\function_notes\logger\logger.h(56): warning C4091: “typedef ”: 没有声明变量时忽略“LOGGER::EnumLogLevel”的左侧
+c:\users\joe\documents\github\function_notes\function_notes\ifstreamjson.cpp(81): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\ifstreamjson.cpp(99): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\ifstreamjson.cpp(116): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\ifstreamjson.cpp(133): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\ifstreamjson.cpp(150): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\ifstreamjson.cpp(167): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
   ListFiles.cpp
+  logger.cpp
+c:\users\joe\documents\github\function_notes\function_notes\logger\logger.h(56): warning C4091: “typedef ”: 没有声明变量时忽略“LOGGER::EnumLogLevel”的左侧
   PrintCompareCSVcpp.cpp
-c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-c:\users\小毛峰\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(90): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\joe\documents\github\function_notes\function_notes\printcomparecsvcpp.cpp(90): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   ReplaceAllDistinct.cpp
   正在生成代码...
-  Function_notes.vcxproj -> C:\Users\小毛峰\Documents\GitHub\Function_notes\x64\Debug\Function_notes.exe
+  Function_notes.vcxproj -> C:\Users\Joe\Documents\GitHub\Function_notes\x64\Debug\Function_notes.exe
