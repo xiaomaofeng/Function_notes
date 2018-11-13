@@ -169,6 +169,7 @@
     <ClCompile Include="logger\logger.cpp" />
     <ClCompile Include="PrintCompareCSVcpp.cpp" />
     <ClCompile Include="ReplaceAllDistinct.cpp" />
+    <ClCompile Include="ToHexString.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
