@@ -83,5 +83,8 @@
     <ClCompile Include="ToHexString.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTree_Sequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

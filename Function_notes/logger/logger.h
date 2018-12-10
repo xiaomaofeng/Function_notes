@@ -53,7 +53,7 @@ namespace LOGGER
 		LogLevel_Error,		//记录严重错误，普通错误
 		LogLevel_Warning,	//记录严重错误，普通错误，警告
 		LogLevel_Info		//记录严重错误，普通错误，警告，提示信息(也就是全部记录)
-	};
+	}LOG_LEVEL;
  
 	class CLogger
 	{

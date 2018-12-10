@@ -158,6 +158,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTree_Sequence.cpp" />
     <ClCompile Include="CreateOutputFileDir.cpp" />
     <ClCompile Include="FindLicense.cpp" />
     <ClCompile Include="Function_notes.cpp" />
