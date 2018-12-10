@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\CplusplusPrimer">
+      <UniqueIdentifier>{1cc036e3-ed57-4b21-8f7b-2627eaa78f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CplusplusPrimer">
+      <UniqueIdentifier>{0bbebe77-1076-4c49-9a6b-36b1ae1270c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\rapidjson">
+      <UniqueIdentifier>{1196137b-b20d-4433-930c-05251c4b2578}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -27,20 +36,23 @@
     <ClInclude Include="BarcodeStatisticsRecorder.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="rapidjson\document.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="rapidjson\istreamwrapper.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="rapidjson\stringbuffer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="rapidjson\writer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="logger\logger.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="savings.h">
+      <Filter>头文件\CplusplusPrimer</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\document.h">
+      <Filter>头文件\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\istreamwrapper.h">
+      <Filter>头文件\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stringbuffer.h">
+      <Filter>头文件\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\writer.h">
+      <Filter>头文件\rapidjson</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +97,9 @@
     </ClCompile>
     <ClCompile Include="BinaryTree_Sequence.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="savings.cpp">
+      <Filter>源文件\CplusplusPrimer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
