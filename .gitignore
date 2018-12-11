@@ -13,3 +13,6 @@
 *.pch
 *.lib
 *.enc
+*.db-shm
+*.opendb
+*.db-wal
