@@ -101,5 +101,8 @@
     <ClCompile Include="savings.cpp">
       <Filter>源文件\CplusplusPrimer</Filter>
     </ClCompile>
+    <ClCompile Include="HeapImplementation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

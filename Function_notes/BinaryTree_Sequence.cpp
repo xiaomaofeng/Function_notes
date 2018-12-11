@@ -33,23 +33,23 @@ void PrintTree(BinaryTree* arr[])
 	
 }
 
-int main()
-{
-	BinaryTree* arr[6];
-	arr[0] = new BinaryTree(0);
-	arr[1] = new BinaryTree(1);
-	arr[2] = new BinaryTree(2);
-	arr[3] = new BinaryTree(3);
-	arr[4] = new BinaryTree(4);
-	arr[5] = new BinaryTree(5);
-	arr[0]->left = arr[1];
-	arr[0] -> right = arr[2];
-	arr[1]->left = arr[3];
-	arr[3]->left = arr[5];
-	arr[2]->right = arr[4];
-	PrintTree(arr);
-	for (int i = 0; i < 6; i++)
-		delete arr[i];
-	return 0;
-
-}
+//int main()
+//{
+//	BinaryTree* arr[6];
+//	arr[0] = new BinaryTree(0);
+//	arr[1] = new BinaryTree(1);
+//	arr[2] = new BinaryTree(2);
+//	arr[3] = new BinaryTree(3);
+//	arr[4] = new BinaryTree(4);
+//	arr[5] = new BinaryTree(5);
+//	arr[0]->left = arr[1];
+//	arr[0] -> right = arr[2];
+//	arr[1]->left = arr[3];
+//	arr[3]->left = arr[5];
+//	arr[2]->right = arr[4];
+//	PrintTree(arr);
+//	for (int i = 0; i < 6; i++)
+//		delete arr[i];
+//	return 0;
+//
+//}
