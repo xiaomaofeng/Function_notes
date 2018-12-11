@@ -1,2 +1,15 @@
 
 *.log
+.vs/Function_notes/v15/.suo
+*.db
+*.ipch
+*.exe
+*.ilk
+*.obj
+*.tlog
+*.idb
+*.pdb
+*.exp
+*.pch
+*.lib
+*.enc
