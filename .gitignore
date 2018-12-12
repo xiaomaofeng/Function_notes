@@ -16,4 +16,5 @@
 *.db-shm
 *.opendb
 *.db-wal
+*.sln
 Function_notes/Function_notes.vcxproj
