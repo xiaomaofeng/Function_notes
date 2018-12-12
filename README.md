@@ -17,6 +17,6 @@ There are some functions which are known in the process of learning;
 
 ### `You also can pull some 430's photo!!! `
 
-#### `I world appreciate it if you can give a star!!`
+#### `I world appreciate it if you can give me a star!!`
 
 [![小轮子冲鸭](https://github.com/xiaomaofeng/Function_notes/blob/master/PictureFor430/Snipaste_2018-12-12_10-27-21.png)](https://weibo.com/ig430)
