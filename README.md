@@ -15,7 +15,7 @@ There are some functions which are known in the process of learning;
 
 ## `Welcome to share your learning experience!`
 
-### `You also can pull some 430's photo!!! `
+### `You also can pull some Ferrari 430's photo!!! `
 
 #### `I world appreciate it if you can give me a star!!`
 
