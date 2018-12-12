@@ -14,3 +14,5 @@ There are some functions which are known in the process of learning;
 
 
 ## `Welcome to share your learning experience!`
+
+![小轮子冲鸭](https://github.com/xiaomaofeng/Function_notes/blob/master/picture/Snipaste_2018-12-12_10-27-21.png)
