@@ -18,3 +18,4 @@
 *.db-wal
 *.sln
 Function_notes/Function_notes.vcxproj
+*.filters
