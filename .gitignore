@@ -17,5 +17,6 @@
 *.opendb
 *.db-wal
 *.sln
-Function_notes/Function_notes.vcxproj
+Function_notes
 *.filters
+
