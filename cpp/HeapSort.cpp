@@ -144,18 +144,18 @@ class HeapSort
 		
 };
 
-int main(int argc, char *argv[])
-{
-	int A[] = { 19,1,10,14,16,4,7,9,3,2,8,5,11 };
-	vector<int>nums;
-	for (int i = 0; i < sizeof(A) / sizeof(A[0]); ++i)
-	{
-		nums.push_back(A[i]);
-	}
-
-	HeapSort sort;
-	sort.print_heap(nums, nums.size());
-	sort.heap_sort(nums);
-	getchar();
-	return 0;
-}
+//int main(int argc, char *argv[])
+//{
+//	int A[] = { 19,1,10,14,16,4,7,9,3,2,8,5,11 };
+//	vector<int>nums;
+//	for (int i = 0; i < sizeof(A) / sizeof(A[0]); ++i)
+//	{
+//		nums.push_back(A[i]);
+//	}
+//
+//	HeapSort sort;
+//	sort.print_heap(nums, nums.size());
+//	sort.heap_sort(nums);
+//	getchar();
+//	return 0;
+//}
