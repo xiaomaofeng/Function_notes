@@ -11,6 +11,8 @@ There are some functions which are known in the process of learning;
 
 >>[DataStructure](https://github.com/xiaomaofeng/Function_notes/tree/master/py/DataStructure)
 
+>>[PythonFromIntroductionToPractice](https://github.com/xiaomaofeng/Function_notes/tree/master/py/PythonIntroductionToPractice)
+
 
 
 ## `Welcome to share your learning experience!`
