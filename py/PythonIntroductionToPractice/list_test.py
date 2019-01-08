@@ -45,3 +45,5 @@ print(friend_foods)
 another_friend_food = my_foods#It means the two variables point to a list,so if the my_foods list has change some value,
 # the another_friend_food will also be change,but if you use the [:],it won't be changed;
 print(another_friend_food)
+
+#function_name(list_name[:])
