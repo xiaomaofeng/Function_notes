@@ -13,6 +13,8 @@ There are some functions which are known in the process of learning;
 
 >>[PythonFromIntroductionToPractice](https://github.com/xiaomaofeng/Function_notes/tree/master/py/PythonIntroductionToPractice)
 
+>>>>[aliens invasion](https://github.com/xiaomaofeng/LearningAsRookie/tree/master/py/PythonIntroductionToPractice/alien_invasion)
+
 
 
 ## `Welcome to share your learning experience!`
