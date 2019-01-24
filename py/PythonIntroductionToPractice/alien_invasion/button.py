@@ -11,7 +11,7 @@ class Button():
         self.width, self.height = 200, 50
         self.button_color = (0, 255, 0)
         self.text_color = (255, 255, 255)
-        self.font = pygame.font.SysFont(None, 48)
+        self.font = pygame.font.SysFont("arial", 48)
 
         #create the rect object,and set it in the middle
         self.rect = pygame.Rect(0, 0, self.width, self.height)
@@ -24,9 +24,9 @@ class Button():
         """render msg to the image, and set it in the middle of the button"""
         self.msg_image = self.font.render(msg, True, self.text_color, self.button_color)
         self.msg_image_rect = self.msg_image.get_rect()
-        self.msg_image.center = self.rect.center
+        self.msg_image_rect.center = self.rect.center
 
-    def draw_botton(self):
+    def draw_button(self):
         #draw a color-filled button
         self.screen.fill(self.button_color, self.rect)
         self.screen.blit(self.msg_image, self.msg_image_rect)
