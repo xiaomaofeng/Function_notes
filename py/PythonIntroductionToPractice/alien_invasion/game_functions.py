@@ -185,11 +185,12 @@ def change_fleet_direction(ai_settings, aliens):
     ai_settings.fleet_direction *= -1
 
 
-def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
+def ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets):
     """response the ship hit by aliens"""
     if stats.ships_left > 0:
         # reduce ships_left by one
         stats.ships_left -= 1
+        sb.prep_ships()
 
     else:
         stats.game_active = False
@@ -207,27 +208,27 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
     sleep(0.5)
 
 
-def check_aliens_bottom(ai_settings, stats, screen, ship, aliens, bullets):
+def check_aliens_bottom(ai_settings, screen, stats, sb, ship, aliens, bullets):
     """check for aliens reach the bottom of the screen"""
     screen_rect = screen.get_rect()
     for alien in aliens.sprites():
         if alien.rect.bottom >= screen_rect.bottom:
             """handel as if a spaceship had been hit."""
-            ship_hit(ai_settings, stats, screen, ship, aliens, bullets)
+            ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets)
             break
 
 
-def update_aliens(ai_settings, stats, screen, ship, aliens, bullets):
+def update_aliens(ai_settings, screen, stats, sb, ship, aliens, bullets):
     # check whether if have aliens located the edge of the screen, and update the aliens position
     check_fleet_edges(ai_settings, aliens)
     aliens.update()
 
     # check ship's collision with aliens
     if pygame.sprite.spritecollideany(ship, aliens):
-        ship_hit(ai_settings, stats, screen, ship, aliens, bullets)
+        ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets)
 
     """check for aliens reach the bottom of the screen"""
-    check_aliens_bottom(ai_settings, stats, screen, ship, aliens, bullets)
+    check_aliens_bottom(ai_settings, screen, stats, sb, ship, aliens, bullets)
 
 
 def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens, bullets, mouse_x, mouse_y):
@@ -247,6 +248,7 @@ def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens,
         sb.prep_score()
         sb.prep_high_score()
         sb.prep_level()
+        sb.prep_ships()
 
         # clear alien and bullet list
         aliens.empty()

@@ -9,6 +9,14 @@ class GameStats():
         self.game_active = False
         #under no circumstances should the highest score be reset
         self.high_score = 0
+        try:
+            with open('high_score.txt') as file:
+                for line in file:
+                   self.high_score = int(line)
+
+        except FileNotFoundError:
+            pass
+
         self.level = 1
 
     def reset_stats(self):
