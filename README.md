@@ -1,5 +1,5 @@
 # Function_notes
-`xiaomaofeng` `chongya`
+`xiaomaofeng`
 
 There are some functions which are known in the process of learning;
 
