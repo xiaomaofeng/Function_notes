@@ -26,6 +26,8 @@ def synonym_queries(synonym_words, queries):
         return output
 
 class DisjointSet(object):
+    """use DisjiointSet to solve synonyms problem"""
+
     def __init__(self):
         self.parents = {}
 
