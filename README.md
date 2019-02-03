@@ -1,7 +1,10 @@
 # Function_notes
 `xiaomaofeng`
+===========================
 
 There are some functions which are known in the process of learning;
+
+****
 
 * Function_notes includes some .cpp
 >>[CplusplusPrimer](https://github.com/xiaomaofeng/Function_notes/tree/master/cpp/CplusplusPrimer "Some example from CplusplusPrimer!")
