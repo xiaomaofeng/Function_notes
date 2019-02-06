@@ -23,3 +23,5 @@ Function_notes
 .vs
 LearningAsRookie
 *.pyc
+*.xml
+*.iml
